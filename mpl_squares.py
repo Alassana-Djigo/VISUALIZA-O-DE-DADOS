@@ -14,3 +14,5 @@ plt.ylabel("Square of value", fontsize = 14)
 plt.tick_params(axis = "both", labelsize = 14)
 
 plt.show()
+
+#

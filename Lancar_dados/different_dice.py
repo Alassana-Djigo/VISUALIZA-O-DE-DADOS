@@ -16,7 +16,7 @@ for value in range(2,max_result + 1):
 	frequencies.append(frequency)
 
 hist = pygal.Bar()
-hist.title = "Resultados de girar dois um D6 e outro D10 50000 vezes"
+hist.title = " Resultados de girar dois um D6 e outro D10 50000 vezes "
 
 list=[]
 for value in range(2,max_result + 1):

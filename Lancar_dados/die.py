@@ -10,3 +10,4 @@ class Die():
 	def roll(self):
 		"""Devolve um valor aleatorio entre 1 e num_sides"""
 		return randint(1,self.num_sides)
+#

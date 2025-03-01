@@ -7,7 +7,6 @@ filename = "dados_meteorologicos.csv"
 with open(filename) as f:
 	reader = csv.reader(f)
 	header_row = next(reader)
-	# print(header_row)
 	highs,dates,lows = [],[],[]
 
 	for row in reader:
@@ -21,8 +20,6 @@ with open(filename) as f:
 			dates.append(current_date)
 			highs.append(high)
 			lows.append(low)
-	# print(highs)
-	# print(generos)
 
 fig = plt.figure(figsize=(10,6))
 plt.plot(dates,highs,c = "red",alpha=0.5)
